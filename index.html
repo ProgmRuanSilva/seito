@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seito</title>
     <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/timeline.css" />
   </head>
   <body>
     <script type="module" src="./assets/js/index.js" defer></script>
@@ -29,71 +30,104 @@
             <div class="stat-card completed">
               <span class="celebration">🎊</span>
               <div class="stat-number">2</div>
-              <div class="stat-label">Completed</div>
+              <div class="stat-label">Completado</div>
             </div>
             <div class="stat-card">
               <div class="stat-number">23</div>
-              <div class="stat-label">Upcoming</div>
+              <div class="stat-label">Em Breve</div>
             </div>
           </div>
 
-          <div class="learning-path">
-            <div class="path-item">
-              <div class="path-line"></div>
-              <div class="path-content">
-                <div class="path-icon">✅</div>
-                <div class="path-card">
-                  <div class="path-card-header">
-                    <div>
-                      <h4 class="course-title-small">Anatomy and Physiology</h4>
-                      <p class="course-description">
-                        Understand the structure and function of the human body.
-                      </p>
-                      <div class="status-badge completed">Completed 🎉</div>
-                    </div>
-                    <div class="path-actions">
-                      <button class="action-btn">⋯</button>
-                      <button class="action-btn">✕</button>
-                      <button class="action-btn primary">✓</button>
-                    </div>
-                  </div>
-                </div>
-                <!-- <div class="path-side-icons"> -->
-                <!--   <button class="icon-btn">🎯</button> -->
-                <!--   <button class="icon-btn">🔒</button> -->
-                <!-- </div> -->
-              </div>
-            </div>
-
-            <div class="path-item">
-              <div class="path-content">
-                <div class="path-icon">✅</div>
-                <div class="path-card">
-                  <div class="path-card-header">
-                    <div>
-                      <h4 class="course-title-small">
-                        Medical Ethics and Professionalism
-                      </h4>
-                      <p class="course-description">
-                        Understand ethical principles and professionalism in
-                        healthcare.
-                      </p>
-                      <div class="status-badge upcoming">Upcoming ⏱️</div>
-                    </div>
-                    <div class="path-actions">
-                      <button class="action-btn">⋯</button>
-                      <button class="action-btn">✕</button>
-                      <button class="path-checkmark-empty">✓</button>
+          <section class="timeline">
+            <ul>
+              <li>
+                <div class="content">
+                  <div class="path-card">
+                    <div class="path-card-header">
+                      <div>
+                        <h4 class="course-title-small">
+                          Introdução à Programação
+                        </h4>
+                        <p class="course-description">
+                          Compreenda os fundamentos da programação e lógica.
+                        </p>
+                        <div class="status-badge completed">Completado 🎉</div>
+                      </div>
+                      <div class="path-actions">
+                        <button class="action-btn">⋯</button>
+                        <button class="action-btn">✕</button>
+                        <button class="action-btn primary">✓</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <!-- <div class="path-side-icons"> -->
-                <!--   <button class="icon-btn">🎯</button> -->
-                <!--   <button class="icon-btn">🔒</button> -->
-                <!-- </div> -->
-              </div>
-            </div>
-          </div>
+              </li>
+              <li>
+                <div class="content">
+                  <div class="path-card">
+                    <div class="path-card-header">
+                      <div>
+                        <h4 class="course-title-small">
+                          Desenvolvimento Web Básico
+                        </h4>
+                        <p class="course-description">
+                          Aprenda HTML, CSS e JavaScript para criar sites.
+                        </p>
+                        <div class="status-badge upcoming">Em Breve ⏱️</div>
+                      </div>
+                      <div class="path-actions">
+                        <button class="action-btn">⋯</button>
+                        <button class="action-btn">✕</button>
+                        <button class="path-checkmark-empty">✓</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="content">
+                  <div class="path-card">
+                    <div class="path-card-header">
+                      <div>
+                        <h4 class="course-title-small">Estrutura de Dados e Algoritmos</h4>
+                        <p class="course-description">
+                          Estude as principais estruturas de dados e algoritmos.
+                        </p>
+                        <div class="status-badge upcoming">Em Breve ⏱️</div>
+                      </div>
+                      <div class="path-actions">
+                        <button class="action-btn">⋯</button>
+                        <button class="action-btn">✕</button>
+                        <button class="path-checkmark-empty">✓</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="content">
+                  <div class="path-card">
+                    <div class="path-card-header">
+                      <div>
+                        <h4 class="course-title-small">
+                          Banco de Dados Fundamentos
+                        </h4>
+                        <p class="course-description">
+                          Aprenda a modelar e manipular bancos de dados relacionais.
+                        </p>
+                        <div class="status-badge upcoming">Em Breve ⏱️</div>
+                      </div>
+                      <div class="path-actions">
+                        <button class="action-btn">⋯</button>
+                        <button class="action-btn">✕</button>
+                        <button class="path-checkmark-empty">✓</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
         </div>
 
         <div class="right-column">
@@ -101,17 +135,17 @@
             <h1 class="section-title ">Meus cursos </h1>
           </div>
 
-          <div class="course-card pharmacology">
+          <div class="course-card squircle-36 pharmacology">
             <div class="relative-z1">
               <div class="flex-center mb-half">
                 <span style="font-size: 1.5rem">💊</span>
-                <h3 class="course-title">Pharmacology Basics</h3>
+                <h3 class="course-title">Programação Orientada a Objetos</h3>
               </div>
               <p class="course-description">
-                Learn basic medical language for effective communication.
+                Conceitos de POO com exemplos práticos.
               </p>
               <div class="play-section">
-                <div class="watching-badge">🕐 Watching 00:30</div>
+                <div class="watching-badge">🕐 Assistindo 00:30</div>
                 <div class="avatars">
                   <div class="avatar-group">
                     <div class="avatar blue">👨‍⚕️</div>
@@ -129,13 +163,13 @@
               <div class="course-content">
                 <div class="flex-between">
                   <div>
-                    <h3 class="course-title">Medical Terminology</h3>
+                    <h3 class="course-title">Redes de Computadores</h3>
                     <p class="course-description">
-                      Learn basic medical language for effective communication.
+                      Fundamentos de redes e protocolos de comunicação.
                     </p>
                   </div>
                 </div>
-                <div class="status-badge completed">Completed 👏</div>
+                <div class="status-badge completed">Completado 👏</div>
               </div>
               <div class="course-actions">
                 <button class="action-btn">⋯</button>
@@ -149,11 +183,11 @@
             <div class="course-header">
               <!-- <span style="font-size: 2.5rem">🔬</span> -->
               <div class="course-content">
-                <h3 class="course-title">Disease Pathophysiology</h3>
+                <h3 class="course-title">Sistemas Operacionais</h3>
                 <p class="course-description">
-                  Study the cellular and molecular basis of common diseases.
+                  Entenda como os sistemas operacionais funcionam.
                 </p>
-                <div class="status-badge upcoming">Upcoming ⏱️</div>
+                <div class="status-badge upcoming">Em Breve ⏱️</div>
               </div>
               <div class="flex-center">
                 <button class="action-btn-bordered">+</button>
