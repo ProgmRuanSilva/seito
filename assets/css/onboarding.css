@@ -1,0 +1,86 @@
+.onboarding-container {
+  max-width: 500px;
+  margin: 4rem auto;
+  padding: 2rem;
+  /* background: #fdf7f7; */
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.onboarding-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #555;
+}
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+.form-group input[type="text"]:focus,
+.form-group input[type="password"]:focus {
+  border-color: #000;
+  outline: none;
+}
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+.form-group input[type="email"]:focus {
+  border-color: #000;
+  outline: none;
+}
+.onboarding-container button[type="submit"] {
+  background: #000;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.onboarding-container button[type="submit"]:hover {
+  background: #333;
+}
+.onboarding-container button[type="submit"]:focus {
+  outline: none;
+}
+#user-profile {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+  text-align: left;
+}
+#user-profile h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+#user-profile p {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+#user-profile strong {
+  color: #333;
+}
