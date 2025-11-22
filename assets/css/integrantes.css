@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    gap: 10px;
+}
+
+.title-integrants {
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  font-weight: bold;
+}
+
+#container-integrantes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin-block: 2rem;
+}
+
+.integrante {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.integrante img {
+  width: 200px;
+  border-radius: 80px;
+}
+
+.integrantes-info p {
+  font-weight: none;
+  text-align: center;
+}
+
+.integrantes-link {
+  display: flex;
+  gap: 6px;
+}
+
+.integrantes-link .item-social-link img {
+  width: 30px;
+}

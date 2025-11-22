@@ -8,19 +8,19 @@ class SHeader extends HTMLElement {
     this.innerHTML = `
         <div class="header-left">
           <div class="logo">Seito</div>
-          <nav class="nav">
-            <a href="../index.html" class="nav-btn">🎓 Dashboard</a>
-            <button class="nav-btn">👥</button>
-            <button class="nav-btn">❓</button>
-            <button class="nav-btn">✉️</button>
-            <button class="nav-btn">📅</button>
-          </nav>
-        </div>
-        <div class="user-info">
-          <div class="user-details">
-            <div class="user-name">${storedUsername}</div>
-            <div class="user-email">${storedUserEmail}</div>
+            <nav class="nav">
+                <a href="../index.html" class="nav-btn">🎓</a>
+                <a href="../pages/integrantes.html" class="nav-btn">👥</a>
+                <a href="../pages/faq.html" class="nav-btn">❓</a>
+                <button class="nav-btn">✉️</button>
+                <button class="nav-btn">📅</button>
+            </nav>
           </div>
+          <div class="user-info">
+            <div class="user-details">
+              <div class="user-name">${storedUsername}</div>
+              <div class="user-email">${storedUserEmail}</div>
+            </div>
           <div class="user-avatar"></div>
         </div>
     `;
