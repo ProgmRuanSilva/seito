@@ -9,9 +9,9 @@ class SHeader extends HTMLElement {
         <div class="header-left">
           <div class="logo">Seito</div>
           <nav class="nav">
-            <a href="../index.html" class="nav-btn">🎓 Dashboard</a>
-            <button class="nav-btn">👥</button>
-            <button class="nav-btn">❓</button>
+            <a href="../index.html" class="nav-btn">🎓</a>
+            <a href="../pages/integrantes.html" class="nav-btn">👥</a>
+            <a href="../pages/faq.html" class="nav-btn">❓</a>
             <button class="nav-btn">✉️</button>
             <button class="nav-btn">📅</button>
           </nav>
