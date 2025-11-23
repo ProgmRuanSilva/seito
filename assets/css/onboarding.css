@@ -84,3 +84,17 @@
 #user-profile strong {
   color: #333;
 }
+
+@media (max-width: 1400px) {
+  .onboarding-container {
+    max-width: 100%;
+    margin: 4rem 2rem; /* Add some margin on the sides */
+  }
+}
+
+@media (max-width: 480px) {
+  .onboarding-container {
+    margin: 2rem 1rem;
+    padding: 1rem;
+  }
+}
