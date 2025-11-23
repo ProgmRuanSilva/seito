@@ -30,3 +30,9 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+@media (max-width: 480px) {
+  .faq-container {
+    padding: 1rem;
+  }
+}
