@@ -1,4 +1,3 @@
-//TODO: Change the href later
 class SHeader extends HTMLElement {
   connectedCallback() {
     this.classList.add("header");
