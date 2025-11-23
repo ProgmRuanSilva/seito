@@ -1,12 +1,12 @@
-# Seito - Plataforma de Grupos de Estudo
+# Level UP - Plataforma de Grupos de Estudo
 
 ## Descrição
 
-Seito é uma plataforma web que conecta estudantes para formar grupos de estudo de maneira eficiente e divertida. O objetivo é facilitar a colaboração e o aprendizado conjunto, tornando a jornada acadêmica mais leve e produtiva.
+Level UP é uma plataforma web que conecta estudantes para formar grupos de estudo de maneira eficiente e divertida. O objetivo é facilitar a colaboração e o aprendizado conjunto, tornando a jornada acadêmica mais leve e produtiva.
 
 ## Problema Resolvido
 
-Muitos estudantes encontram dificuldades para encontrar colegas com os mesmos interesses e disponibilidades para formar grupos de estudo. A falta de uma ferramenta centralizada para organizar e gerenciar esses grupos resulta em perda de tempo e oportunidades de aprendizado. A Seito resolve esse problema oferecendo uma plataforma completa para encontrar, criar e gerenciar grupos de estudo.
+Muitos estudantes encontram dificuldades para encontrar colegas com os mesmos interesses e disponibilidades para formar grupos de estudo. A falta de uma ferramenta centralizada para organizar e gerenciar esses grupos resulta em perda de tempo e oportunidades de aprendizado. A Level UP resolve esse problema oferecendo uma plataforma completa para encontrar, criar e gerenciar grupos de estudo.
 
 ## Tecnologias Utilizadas
 
