@@ -22,7 +22,8 @@
 
 #container-sobre h1,
 #container-sobre h2,
-#container-sobre p {
+#container-sobre p,
+#container-sobre li {
     max-width: 100%;
     width: 100%;
     overflow-wrap: break-word;
@@ -36,4 +37,34 @@
 }
 
 #container-sobre h2 {
-    font-size: clamp(1.2rem, 3.3v
+    font-size: clamp(1.2rem, 3.3vw, 1.8rem);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: 600;
+}
+
+#container-sobre p {
+    font-size: clamp(1rem, 2.5vw, 1.1rem);
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+#container-sobre ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+#container-sobre li {
+    font-size: clamp(1rem, 2.5vw, 1.1rem);
+    margin-bottom: 5px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    #container-sobre {
+        padding: 20px;
+    }
+}
+
