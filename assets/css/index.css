@@ -707,25 +707,25 @@ body {
 
   .hamburger-menu {
     display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 101;
   }
 
   .nav {
     display: none;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 0;
     background: #000;
     width: 100%;
     flex-direction: column;
-    padding: 1rem;
+    z-index: 100;
   }
 
   .nav.active {
     display: flex;
-  }
-
-  .header-left {
-    gap: 1.5rem;
   }
 
   .user-info {
