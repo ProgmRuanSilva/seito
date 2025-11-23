@@ -11,7 +11,7 @@
       rel="stylesheet"
       crossorigin="anonymous"
     />
-  <script type="module" src="../assets/js/auth.js" defer></script>
+    <script type="module" src="../assets/js/auth.js" defer></script>
   </head>
   <body>
     <script type="module" src="../assets/js/index.js" defer></script>
@@ -19,26 +19,38 @@
     <div class="container">
       <t-header></t-header>
 
-      <div class="">
+      <div id="container-faq">
         <h1>FAQ</h1>
-        <div class="faq-container">
-          <div class="faq-item">
-            <button class="accordion">Pergunta 1?</button>
-            <div class="panel">
-              <p>Resposta da pergunta 1.</p>
-            </div>
+        <div class="faq-item">
+          <button class="accordion">O que é a Level UP?</button>
+          <div class="panel">
+            <p>
+              A Level UP é uma plataforma web que conecta estudantes para
+              formar grupos de estudo de maneira eficiente e divertida,
+              facilitando a colaboração e o aprendizado conjunto.
+            </p>
           </div>
-          <div class="faq-item">
-            <button class="accordion">Pergunta 2?</button>
-            <div class="panel">
-              <p>Resposta da pergunta 2.</p>
-            </div>
+        </div>
+        <div class="faq-item">
+          <button class="accordion">
+            Qual problema a Level UP resolve?
+          </button>
+          <div class="panel">
+            <p>
+              A Level UP resolve a dificuldade que muitos estudantes
+              encontram para achar colegas com os mesmos interesses e
+              disponibilidades para formar grupos de estudo, eliminando a
+              perda de tempo e oportunidades de aprendizado.
+            </p>
           </div>
-          <div class="faq-item">
-            <button class="accordion">Pergunta 3?</button>
-            <div class="panel">
-              <p>Resposta da pergunta 3.</p>
-            </div>
+        </div>
+        <div class="faq-item">
+          <button class="accordion">Como a Level UP funciona?</button>
+          <div class="panel">
+            <p>
+              A plataforma oferece um ambiente completo para encontrar, criar
+              e gerenciar grupos de estudo.
+            </p>
           </div>
         </div>
       </div>
@@ -50,12 +62,12 @@
         <form id="contact-form">
           <div class="form-group">
             <label for="name">Nome</label>
-            <input type="text" id="name" name="name">
+            <input type="text" id="name" name="name" />
             <p class="error-message"></p>
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" />
             <p class="error-message"></p>
           </div>
           <div class="form-group">
