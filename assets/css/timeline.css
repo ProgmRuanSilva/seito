@@ -19,7 +19,7 @@
 
 .timeline ul li:before {
   content: "";
-  background: #f7f8fc; /* page background */
+  background: #f7f8fc;
   position: absolute;
   left: 50%;
   top: 0;
@@ -33,17 +33,16 @@
 .timeline ul li .content {
   position: relative;
   top: 7px;
-  width: 450px;
+  width: calc(30vw - 100px);
 }
 
 .timeline ul li .content .path-card {
   position: relative;
 }
 
-/* The horizontal line connecting card to timeline */
 .timeline ul li .content:before {
   content: "";
-  background: #a0a0a0; /* same as dot border */
+  background: #a0a0a0;
   position: absolute;
   top: 5px;
   width: 38px;
@@ -59,22 +58,23 @@
 }
 
 .timeline ul li:nth-child(even) .content {
-  left: calc(-450px - 45px);
+  left: calc(-390px - 45px);
 }
 
 .timeline ul li:nth-child(even) .content:before {
   right: -38px;
 }
 
-@media screen and (max-width: 1575px) {
+@media screen and (max-width: 1400px) {
   .path-card {
-    width: calc(41vw - 45px);
+    width: calc(90vw - 150px);
   }
   .timeline ul li {
     margin-left: 20px;
   }
   .timeline ul li .content {
-    width: calc(100vw - 100px);
+    width: calc(50vw - 100px);
+    max-width: 300px;
   }
   .timeline ul li:nth-child(even) .content {
     left: 45px;
@@ -82,5 +82,11 @@
   .timeline ul li:nth-child(even) .content:before {
     left: -38px;
     right: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .action-btn {
+    display: none;
   }
 }
