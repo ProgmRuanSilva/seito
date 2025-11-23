@@ -34,8 +34,8 @@ Muitos estudantes encontram dificuldades para encontrar colegas com os mesmos in
 
 ## Integrantes
 
-| Nome            | RM     | Turma  |
-| --------------- | ------ | ------ |
-| William Santana | 568182 | 1TDSPB |
-| Harumi Takemoto | 567927 | 1TDSPB |
-| Ruan Silva      | 566719 | 1TDSPB |
+| Nome            | RM     | Turma  | Foto                              | LinkedIn                                                 | GitHub                                      |
+| --------------- | ------ | ------ | --------------------------------- | -------------------------------------------------------- | ------------------------------------------- |
+| William Santana | 568182 | 1TDSPB | ![foto](./assets/img/william.jpg) | [LinkedIn](https://www.linkedin.com/in/harumi-takemoto/) | [link](ihttps://github.com/Harumiitakemoto) |
+| Harumi Takemoto | 567927 | 1TDSPB | ![foto](./assets/img/harumi.jpg)  | [LinkedIn](www.linkedin.com/in/promgruansilva)           | [link](https://github.com/wwilliamsantana)  |
+| Ruan Silva      | 566719 | 1TDSPB | ![foto](./assets/img/ruan.jpg)    | [LinkedIn](https://www.linkedin.com/in/wwilliamsantana/) | [link](https://github.com/ProgmRuanSilva)   |
