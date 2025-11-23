@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level UP - Demonstração</title>
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/demonstracao.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@progmruansilva/squircles@1.2.0/index.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <script type="module" src="../assets/js/auth.js" defer></script>
+  </head>
+  <body>
+    <script type="module" src="../assets/js/index.js" defer></script>
+    <script type="module" src="../assets/js/demonstracao.js" defer></script>
+    <div class="container">
+      <t-header></t-header>
+
+      <div class="content">
+        <h1>Demonstração da Solução</h1>
+        <p>
+          Encontre grupos de estudo para qualquer disciplina. Digite o nome da
+          matéria e clique em "Buscar".
+        </p>
+        <div class="search-container">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Digite o nome da matéria..."
+          />
+          <button id="search-button">Buscar</button>
+        </div>
+        <div id="results-container" class="results-container"></div>
+      </div>
+    </div>
+    <div id="contact-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Entre em Contato</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" />
+            <p class="error-message"></p>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+            <p class="error-message"></p>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message"></textarea>
+            <p class="error-message"></p>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
