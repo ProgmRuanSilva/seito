@@ -1,37 +1,39 @@
 #container-sobre {
     width: 100%;
     max-width: 100%;
-    overflow-wrap: break-word;
-
-    /* IMPORTANTE — remove restrições de altura */
     height: auto !important;
     min-height: auto !important;
-
-    /* permite que o bloco cresça conforme o conteúdo */
     display: block;
+    overflow-wrap: break-word;
+
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    box-sizing: border-box;
+
+    /* Animação suave */
+    animation: fadeIn 0.6s ease;
 }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
 #container-sobre h1,
 #container-sobre h2,
 #container-sobre p {
-    text-align: center;
     max-width: 100%;
     width: 100%;
+    overflow-wrap: break-word;
 }
 
-/* Fonte realmente responsiva */
 #container-sobre h1 {
-    font-size: clamp(1.4rem, 4vw, 2rem);
+    font-size: clamp(1.7rem, 4vw, 2.3rem);
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 700;
 }
 
 #container-sobre h2 {
-    font-size: clamp(1rem, 3.5vw, 1.6rem);
-}
-
-#container-sobre p {
-    padding-left: 8px;
-  padding-right: 8px;
-  box-sizing: border-box;
-  word-wrap: break-word;
-}
-
-    
+    font-size: clamp(1.2rem, 3.3v
