@@ -11,6 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("userEmail", email);
   };
 
+  const isAuthenticated = () => {
+    return localStorage.getItem("userLogin") !== null;
+  };
+
   if (loginForm) {
     loginForm.addEventListener("submit", (event) => {
       event.preventDefault();
@@ -18,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const passwordInput = document.getElementById("password");
       const emailInput = document.getElementById("email");
       saveUserData(usernameInput.value, passwordInput.value, emailInput.value);
-      window.location.href = "../../index.html"; // Redirect to index.html
+      window.location.href = "dashboard.html"; // Redirect to dashboard
       loginForm.reset();
     });
   }
