@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Level UP - Contato</title>
     <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/onboarding.css" />
     <link rel="stylesheet" href="../assets/css/contato.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/@progmruansilva/squircles@1.2.0/index.css"
@@ -19,30 +20,29 @@
     <div class="container">
       <t-header></t-header>
 
-      <div id="container-contato">
-        <h1>Entre em Contato</h1>
-        <!-- Contact form or content goes here -->
-        <p>Preencha o formulário abaixo para nos contatar.</p>
-        <!-- This is a placeholder for the actual contact form -->
-        <form>
-          <div class="form-group">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label for="assunto">Assunto:</label>
-            <input type="text" id="assunto" name="assunto">
-          </div>
-          <div class="form-group">
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-          </div>
-          <button type="submit">Enviar Mensagem</button>
-        </form>
+      <div class="main-section">
+        <div class="onboarding-container">
+          <h1>Entre em Contato</h1>
+          <form>
+            <div class="form-group">
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="assunto">Assunto:</label>
+              <input type="text" id="assunto" name="assunto">
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem:</label>
+              <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="primary squircle-16">Enviar Mensagem</button>
+          </form>
+        </div>
       </div>
     </div>
     <div id="contact-modal" class="modal">
