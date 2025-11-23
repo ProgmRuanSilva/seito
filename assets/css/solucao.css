@@ -1,0 +1,46 @@
+.content {
+  padding: 2rem;
+}
+
+.content h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tab-container {
+  width: 100%;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.tab-button {
+  background-color: #f1f1f1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab-button:hover {
+  background-color: #ddd;
+}
+
+.tab-button.active {
+  background-color: #ccc;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.tab-content.active {
+  display: block;
+}

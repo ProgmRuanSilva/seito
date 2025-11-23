@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level UP - Solução</title>
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/solucao.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@progmruansilva/squircles@1.2.0/index.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  <script type="module" src="../assets/js/auth.js" defer></script>
+  </head>
+  <body>
+    <script type="module" src="../assets/js/index.js" defer></script>
+    <script type="module" src="../assets/js/solucao.js" defer></script>
+    <div class="container">
+      <t-header></t-header>
+
+      <div class="content">
+        <h1>Nossa Solução</h1>
+
+        <div class="tab-container">
+          <div class="tab-buttons">
+            <button class="tab-button active" data-tab="problema">O Problema</button>
+            <button class="tab-button" data-tab="solucao">A Solução</button>
+            <button class="tab-button" data-tab="como-funciona">Como Funciona</button>
+          </div>
+
+          <div id="problema" class="tab-content active">
+            <h2>O Problema</h2>
+            <p>Muitos estudantes encontram dificuldades para encontrar colegas com os mesmos interesses e disponibilidades para formar grupos de estudo. A falta de uma ferramenta centralizada para organizar e gerenciar esses grupos resulta em perda de tempo e oportunidades de aprendizado.</p>
+          </div>
+
+          <div id="solucao" class="tab-content">
+            <h2>A Solução</h2>
+            <p>A Level UP é uma plataforma que conecta estudantes para formarem grupos de estudo. Nosso objetivo é facilitar a colaboração e o aprendizado conjunto, oferecendo uma ferramenta completa para encontrar, criar e gerenciar grupos de estudo de forma eficiente.</p>
+          </div>
+
+          <div id="como-funciona" class="tab-content">
+            <h2>Como Funciona</h2>
+            <p>1. Crie seu perfil e adicione as disciplinas que você está cursando.</p>
+            <p>2. Procure por grupos de estudo existentes ou crie o seu próprio.</p>
+            <p>3. Convide outros estudantes para o seu grupo ou solicite para entrar em um grupo.</p>
+            <p>4. Utilize as ferramentas da plataforma para agendar sessões de estudo e compartilhar materiais.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Entre em Contato</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name">
+            <p class="error-message"></p>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <p class="error-message"></p>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message"></textarea>
+            <p class="error-message"></p>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
