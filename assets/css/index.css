@@ -707,6 +707,7 @@ body {
 
   .hamburger-menu {
     display: block;
+    z-index: 101;
   }
 
   .nav {
@@ -718,6 +719,7 @@ body {
     width: 100%;
     flex-direction: column;
     padding: 1rem;
+    z-index: 100;
   }
 
   .nav.active {
