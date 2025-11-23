@@ -30,12 +30,12 @@ Muitos estudantes encontram dificuldades para encontrar colegas com os mesmos in
 
 ## Link do Projeto no GitHub
 
-[Link do Projeto no GitHub](https://github.com/ProgmRuanSilva/seito)
+[Link para o repositório no GitHub]
 
 ## Integrantes
 
-| Nome            | RM     | Turma  |
-| --------------- | ------ | ------ |
-| William Santana | 568182 | 1TDSPB |
-| Harumi Takemoto | 567927 | 1TDSPB |
-| Ruan Silva      | 566719 | 1TDSPB |
+| Nome | RM | Turma | Foto | LinkedIn | GitHub |
+|---|---|---|---|---|---|
+| William Santana | 12345 | 1TDSS | [foto] | [link] | [link] |
+| Harumi Takemoto | 67890 | 1TDSS | [foto] | [link] | [link] |
+| Ruan Silva | 11223 | 1TDSS | [foto] | [link] | [link] |
