@@ -9,10 +9,10 @@ class SHeader extends HTMLElement {
         <div class="header-left">
           <div class="logo">Seito</div>
             <nav class="nav">
-                <a href="../index.html" class="nav-btn">🎓</a>
-                <a href="../pages/integrantes.html" class="nav-btn">👥</a>
-                <a href="../pages/faq.html" class="nav-btn">❓</a>
-                <a href="../pages/sobre.html" class="nav-btn">✉️</a>
+                <a href="../index.html" class="nav-btn" title="Página inicial">🎓</a>
+                <a href="../pages/integrantes.html" class="nav-btn" title="Integrantes">👥</a>
+                <a href="../pages/faq.html" class="nav-btn" title="FAQ">❓</a>
+                <a href="../pages/sobre.html" class="nav-btn" title="Sobre">✉️</a>
                 <button class="nav-btn">📅</button>
             </nav>
           </div>
