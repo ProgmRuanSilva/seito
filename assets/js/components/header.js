@@ -13,7 +13,7 @@ class SHeader extends HTMLElement {
             <a href="../pages/faq.html" class="nav-btn">❓</a>
             <a href="../pages/solucao.html" class="nav-btn">🧩</a>
             <a href="../pages/demonstracao.html" class="nav-btn">💡</a>
-            <button class="nav-btn contact-btn">✉️</button>
+            <a href="../pages/contato.html" class="nav-btn">✉️</a>
           </nav>
         </div>
         <a href="../pages/onboarding.html" class="user-link">
